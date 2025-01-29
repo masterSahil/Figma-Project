@@ -764,7 +764,7 @@ header nav{
     position: relative;
     &::after{
         position: absolute;
-        bottom: 0;
+        bottom: -6px;
         left: 0;
         content: url('../Img/testimonials/Travel_Concepts_2\ 1.png');
     }
