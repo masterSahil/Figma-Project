@@ -81,22 +81,13 @@ header nav{
     font-family: var(--sans-serif-fonts);
     font-size: 15px;
 }
-.dropdown-menu li{
+.dropdown-menu li a{
     position: relative;
     cursor: pointer;
-}
-.dropdown-menu li::after{
     transition: all .3s ease;
-    position: absolute;
-    top: 20px;
-    left: 0;
-    width: 0;
-    content: '';
-    height: 2px;
-    background: var(--orange-color);
-}
-.dropdown-menu li:hover::after{
-    width: 100%;
+    &:hover{
+        color: #e67e22;
+    }
 }
 .nav1{
     justify-content: space-around;
